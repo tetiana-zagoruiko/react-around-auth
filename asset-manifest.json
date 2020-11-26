@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/around-express/static/css/main.24ce8dce.chunk.css",
+    "main.js": "/around-express/static/js/main.a4b4aade.chunk.js",
+    "main.js.map": "/around-express/static/js/main.a4b4aade.chunk.js.map",
+    "runtime-main.js": "/around-express/static/js/runtime-main.a0b1f8ef.js",
+    "runtime-main.js.map": "/around-express/static/js/runtime-main.a0b1f8ef.js.map",
+    "static/js/2.d2437cb7.chunk.js": "/around-express/static/js/2.d2437cb7.chunk.js",
+    "static/js/2.d2437cb7.chunk.js.map": "/around-express/static/js/2.d2437cb7.chunk.js.map",
+    "index.html": "/around-express/index.html",
+    "precache-manifest.499b68dd3bfb26159224797a5a0299ec.js": "/around-express/precache-manifest.499b68dd3bfb26159224797a5a0299ec.js",
+    "service-worker.js": "/around-express/service-worker.js",
+    "static/css/main.24ce8dce.chunk.css.map": "/around-express/static/css/main.24ce8dce.chunk.css.map",
+    "static/js/2.d2437cb7.chunk.js.LICENSE.txt": "/around-express/static/js/2.d2437cb7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/around-express/static/media/remove.4220563a.svg",
+    "static/media/logo.svg": "/around-express/static/media/logo.8f7611ae.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0b1f8ef.js",
+    "static/js/2.d2437cb7.chunk.js",
+    "static/css/main.24ce8dce.chunk.css",
+    "static/js/main.a4b4aade.chunk.js"
+  ]
+}
