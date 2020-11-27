@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link, useHistory, withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import * as auth from '../auth.js';
 
 function Login({ handleLogin, openingInfoTooltip }) {
     const [email, setEmail] = React.useState('');
     const [password, setPassword] = React.useState('');
-
-    const history = useHistory();
 
     const resetForm = () => {
         setEmail('');
@@ -22,7 +20,6 @@ function Login({ handleLogin, openingInfoTooltip }) {
             .then((data) => {
                 if (data.token) {
                     handleLogin();
-                    history.push('/')
                 } else {
                     openingInfoTooltip(false);
                 }

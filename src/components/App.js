@@ -10,8 +10,8 @@ import EditProfilePopup from './EditProfilePopup.js';
 import EditAvatarPopup from './EditAvatarPopup.js';
 import AddPlacePopup from './AddPlacePopup.js';
 import InfoTooltip from './InfoTooltip.js';
-import infoToolOopsPath from '../images/oops.png';
-import infoToolSuccessPath from '../images/success.png';
+import imageSuccessPath from "../images/success.png";
+import imageOopsPath from '../images/oops.png';
 
 import * as auth from '../auth.js';
 import api from '../utils/Api.js';
@@ -125,11 +125,11 @@ function App() {
     if (kind === false) {
       setInfoTooltipOpen(true);
       setInfoTooltipText("Oops, something went wrong! Please try again.");
-      setInfoTooltipImage(infoToolOopsPath);
+      setInfoTooltipImage(imageOopsPath);
     } else {
       setInfoTooltipOpen(true);
       setInfoTooltipText("Success! You have now been registered.");
-      setInfoTooltipImage(infoToolSuccessPath);
+      setInfoTooltipImage(imageSuccessPath);
     }
   }
 
