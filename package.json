@@ -2,6 +2,7 @@
   "name": "sprint-14",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tetiana-zagoruiko.github.io/react-around-auth/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
