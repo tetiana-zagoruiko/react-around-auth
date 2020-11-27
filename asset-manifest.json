@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-around-auth/static/css/main.75dc3320.chunk.css",
-    "main.js": "/react-around-auth/static/js/main.2ce79227.chunk.js",
-    "main.js.map": "/react-around-auth/static/js/main.2ce79227.chunk.js.map",
+    "main.js": "/react-around-auth/static/js/main.d0be7993.chunk.js",
+    "main.js.map": "/react-around-auth/static/js/main.d0be7993.chunk.js.map",
     "runtime-main.js": "/react-around-auth/static/js/runtime-main.a3dc84bd.js",
     "runtime-main.js.map": "/react-around-auth/static/js/runtime-main.a3dc84bd.js.map",
     "static/js/2.2f792b90.chunk.js": "/react-around-auth/static/js/2.2f792b90.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a3dc84bd.js",
     "static/js/2.2f792b90.chunk.js",
     "static/css/main.75dc3320.chunk.css",
-    "static/js/main.2ce79227.chunk.js"
+    "static/js/main.d0be7993.chunk.js"
   ]
 }
