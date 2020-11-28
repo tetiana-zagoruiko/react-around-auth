@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import * as auth from '../auth.js';
 
-function Register({ openingInfoTooltip}) {
+function Register({ openingInfoTooltip, handleRegister}) {
     const [password, setPassword] = React.useState('');
     const [email, setEmail] = React.useState('');
 
@@ -11,23 +10,16 @@ function Register({ openingInfoTooltip}) {
         setPassword('');
     }
 
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
         if (!email || !password) {
             return;
         }
-        auth.register(password, email)
-            .then((res) => {
-                if (!res || res.statusCode===400) {
-                    openingInfoTooltip(false);
-                } else{
-                    openingInfoTooltip(true);
-                    return res;
-                }
-            })
-            .then(resetForm)
-            .catch(err => openingInfoTooltip(false))
+
+        handleRegister(password, email);
+        resetForm();
     }
 
         return (

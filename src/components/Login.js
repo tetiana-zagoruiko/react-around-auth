@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import * as auth from '../auth.js';
 
 function Login({ handleLogin, openingInfoTooltip }) {
     const [email, setEmail] = React.useState('');
@@ -16,16 +15,8 @@ function Login({ handleLogin, openingInfoTooltip }) {
         if (!email || !password) {
             return;
         }
-        auth.authorize(password, email)
-            .then((data) => {
-                if (data.token) {
-                    handleLogin();
-                } else {
-                    openingInfoTooltip(false);
-                }
-            })
-            .then(resetForm)
-            .catch(err => openingInfoTooltip(false));
+        handleLogin(password, email);
+        resetForm();
     }
 
     return (
