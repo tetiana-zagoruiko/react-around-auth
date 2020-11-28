@@ -41,10 +41,10 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser }) {
         title="Edit profile"
         children={
             <React.Fragment>
-                <input onChange={handleNameChange} id="profile-name" name="name" type="text" className="form__input form__input_type_name" placeholder={name} required maxLength="40" minLength="2" />
+                <input onChange={handleNameChange} id="profile-name" value={name} name="name" type="text" className="form__input form__input_type_name" required maxLength="40" minLength="2" />
                 <span id="profile-name-error" className="form__error"></span>
 
-                <input onChange={handleDescriptionChange} id="profile-text" name="title" type="text" className="form__input form__input_type_title" placeholder={description} required maxLength="200" minLength="2" />
+                <input onChange={handleDescriptionChange} id="profile-text" value={description} name="title" type="text" className="form__input form__input_type_title" required maxLength="200" minLength="2" />
                 <span id="profile-text-error" className="form__error"></span>
             </React.Fragment>}
     /> 
